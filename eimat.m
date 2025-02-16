@@ -1,7 +1,6 @@
 % Helper function to create the E_i matrices for SDP.
 % Parameters: n (number of vars), i (index)
 
-% Due to 
 function ret = eimat(n,i)
 
 if i==0
